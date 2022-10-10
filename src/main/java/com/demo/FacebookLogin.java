@@ -23,7 +23,7 @@ public class FacebookLogin {
 	@BeforeMethod
 	public void beforeMethod() {
 		
-		System.setProperty("webdriver.edge.driver", "C:\\Users\\loges\\OneDrive\\Desktop\\phase5\\msedgedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Mujahith\\Downloads\\95\\chromedriver.exe");
 				WebDriver driver= new EdgeDriver() ;
 	}
 	@AfterMethod
